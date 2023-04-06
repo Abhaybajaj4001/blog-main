@@ -31,7 +31,7 @@ const Feed = () => {
   const toShow = data?.pages[page]?.posts;
 
   if (!toShow) {
-    return <div>No Posts Yet</div>;
+    return <div className="flex items-center justify-center text-2xl">No Posts Yet</div>;
   }
 
   return (
